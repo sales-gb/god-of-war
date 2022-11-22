@@ -1,0 +1,116 @@
+.s-hero {
+  padding-top: 16.4rem;
+  padding-bottom: 10.3rem;
+  background-image: url(../img/assets/bg-hero.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 90vh;
+  .container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .left {
+    width: 100%;
+    max-width: 78.2rem;
+    h1 {
+      margin-top: 2.4rem;
+      margin-bottom: 1.8rem;
+    }
+    p {
+      font-weight: 500;
+      font-size: 2.2rem;
+      line-height: 140%;
+      color: #fff;
+      margin-bottom: 4rem;
+    }
+    .value {
+      display: flex;
+      strong {
+        background-color: #fff;
+        padding: 1.8rem 3.6rem;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.2rem;
+        color: #000000;
+      }
+      a {
+        display: block;
+        padding: 1.8rem 3.6rem;
+        background-color: #3265ea;
+        font-weight: 700;
+        font-size: 2rem;
+        line-height: 2.2rem;
+        color: #ffffff;
+      }
+    }
+  }
+  .right {
+    width: 100%;
+    max-width: 44.3rem;
+    position: relative;
+    top: 9.7rem;
+    span {
+      display: block;
+      font-weight: 700;
+      font-size: 1.8rem;
+      line-height: 2rem;
+      margin-bottom: 2.3rem;
+    }
+    button {
+      position: relative;
+      width: 100%;
+      height: 24.7rem;
+      border: 2px solid #3265ea;
+      overflow: hidden;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      .thumbnail {
+        width: 100%;
+      }
+      .play {
+        position: absolute;
+        bottom: 2.5rem;
+        left: 3.2rem;
+      }
+    }
+    .classification {
+      display: flex;
+      align-items: center;
+      margin-top: 5rem;
+      p {
+        color: #fff;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 1.7rem;
+        max-width: 27.4rem;
+        margin-left: 1.5rem;
+      }
+    }
+  }
+}
+
+.s-info-geral {
+  width: 100%;
+  height: 18rem;
+  display: flex;
+  align-items: center;
+  ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    li {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      span {
+        display: block;
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.6rem;
+        line-height: 160%;
+        color: #bdc2cb;
+        margin-top: 1.2rem;
+      }
+    }
+  }
+}
