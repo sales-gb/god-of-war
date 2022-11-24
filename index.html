@@ -8,17 +8,19 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.min.css">
+  <link rel="shortcut icon" href="./fav-icon.png" type="image/x-icon">
   <title>God Of War</title>
 </head>
 
 <body>
   <header>
     <div class="container">
-      <img src="./img/assets/sony.svg" class="sony" alt="logo Sony">
-      <img src="./img/assets/logo.jpg" class="logo" alt="logo god of war">
-      <div class="plataform">
+      <img src="./img/assets/sony.svg" class="sony" alt="logo Sony" data-aos="fade-right">
+      <img src="./img/assets/logo.jpg" class="logo" alt="logo god of war" data-aos="zoom-in">
+      <div class="plataform" data-aos="fade-left">
         <span>Disponível para</span>
         <ul>
           <li>PS4</li>
@@ -30,7 +32,7 @@
 
   <section class="s-hero">
     <div class="container">
-      <div class="left">
+      <div class="left" data-aos="fade-right">
         <h3 class="subtitle">
           <img src="./img/assets/bullets.svg" alt="bullets">
           <span>Lançamento dia 09/11/2022</span>
@@ -39,14 +41,17 @@
         <p>Os maiores heróis dos nove reinos, lutando por um futuro em que acreditam.</p>
         <div class="value">
           <strong>R$ 349,00</strong>
-          <a rel="noopener noreferrer" href="#" target="_blank">Comprar na pré-venda</a>
+          <a rel="noopener noreferrer" href="https://store.playstation.com/pt-br/concept/10001850" target="_blank">Comprar</a>
         </div>
       </div>
-      <div class="right">
+
+      <div class="right" data-aos="fade-up">
         <span>Assista ao trailer</span>
-        <button type="button">
-          <img src="./img/assets/thumbnail.gif" alt="thumbnail do trailer" class="thumbnail">
-          <img src="./img/assets/play.svg" alt="icon-play" class="play">
+        <button>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=qZ9LoYMu2CU">
+            <img src="./img/assets/thumbnail.gif" alt="thumbnail do trailer" class="thumbnail">
+            <img src="./img/assets/play.svg" alt="icon-play" class="play">
+          </a>
         </button>
         <div class="classification">
           <img src="./img/assets/faixa-etaria.png" alt="">
@@ -56,7 +61,7 @@
     </div>
   </section>
 
-  <section class="s-info-geral">
+  <section class="s-info-geral" data-aos="fade-up">
     <div class="container">
       <ul>
         <li>
@@ -89,7 +94,7 @@
 
   <section class="s-story">
     <div class="container">
-      <div class="left">
+      <div class="left" data-aos="fade-right">
         <h3 class="subtitle">
           <img src="./img/assets/bullets.svg" alt="bullets">
           <span>Sony Interactive Entertainment</span>
@@ -98,11 +103,11 @@
         <p>O Fimbulwinter já começou. Kratos e Atreus devem viajar pelos Nove Reinos em busca de respostas enquanto as forças asgardianas se preparam para uma batalha profetizada que causará o fim do mundo. Nessa jornada, eles explorarão paisagens míticas impressionantes e enfrentarão inimigos aterradores: deuses nórdicos e monstros. A ameaça do Ragnarök se aproxima. Kratos e Atreus terão de escolher entre a segurança deles próprios e a dos reinos.</p>
         <div class="corp">
           <img src="./img/assets/logo-sta-monica-sony.png" alt="Logo Santa Monica e Sony">
-          <p>Do Santa Monica Studio, esta é a sequência da aclamada versão de 2018 de God of War. </p>
+          <p>Do Santa Monica Studio, esta é a sequência da aclamada versão de 2018 de God of War.</p>
         </div>
       </div>
 
-      <div class="right">
+      <div class="right" data-aos="fade-left">
         <img src="./img/assets/kratos-atreus.png" alt="Kratos e Atreus" class="kratos-atreus">
       </div>
     </div>
@@ -111,7 +116,7 @@
   <section class="s-characters">
     <div class="container">
       <div class="description">
-        <div class="left">
+        <div class="left" data-aos="fade-right">
           <h3 class="subtitle">
             <img src="./img/assets/bullets.svg" alt="bullets">
             <span>Conheça os personagens</span>
@@ -121,7 +126,7 @@
           </p>
         </div>
 
-        <div class="right">
+        <div class="right" data-aos="fade-left">
           <img src="./img/assets/axel.png" alt="">
           <div class="text">
             <img src="./img/assets/logo.jpg" alt="Logo god of war">
@@ -130,7 +135,7 @@
         </div>
       </div>
 
-      <div class="slide-characters">
+      <div class="slide-characters" data-aos="fade-up">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="card-character">
@@ -210,6 +215,7 @@
   </section>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./js/main.js"></script>
 </body>
 

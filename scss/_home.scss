@@ -2,8 +2,9 @@
   padding-top: 16.4rem;
   padding-bottom: 10.3rem;
   background-image: url(../img/assets/bg-hero.jpg);
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 80rem;
   .container {
     display: flex;
@@ -87,6 +88,80 @@
       }
     }
   }
+  @media (max-width: 1200px) {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    height: auto;
+    background-position-x: 40%;
+    background-position-y: 50%;
+    .left {
+      max-width: 64rem;
+      p {
+        font-size: 1.8rem;
+      }
+    }
+    .right {
+      top: 0;
+      max-width: 35.3rem;
+      button {
+        height: 19.7rem;
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    padding: 6rem 0;
+    background-size: cover;
+    height: auto;
+    background-position-x: 34%;
+    .container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .left {
+      text-align: center;
+      margin-bottom: 4rem;
+      .value {
+        justify-content: center;
+      }
+    }
+    .right {
+      text-align: center;
+      button {
+        margin-bottom: 3rem;
+      }
+      .classification {
+        flex-direction: column;
+        p {
+          margin-left: 0;
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+  @media (max-width: 560px) {
+    background-position-x: 50%;
+    padding: 4rem 0;
+    .left {
+      p {
+        font-size: 1.4rem;
+        max-width: 80%;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+      }
+    }
+    .right {
+      max-width: 31rem;
+      button {
+        height: 17.7rem;
+      }
+      .classification {
+        margin-top: 1rem;
+        p {
+          line-height: 2.4rem;
+        }
+      }
+    }
+  }
 }
 
 .s-info-geral {
@@ -113,6 +188,27 @@
       }
     }
   }
+  @media (max-width: 1200px) {
+    padding: 4rem 0;
+    height: auto;
+    ul {
+      flex-wrap: wrap;
+      gap: 3rem 0;
+      li {
+        width: 33.3%;
+      }
+    }
+  }
+  @media (max-width: 560px) {
+    ul {
+      li {
+        width: 50%;
+        span {
+          max-width: 14.5rem;
+        }
+      }
+    }
+  }
 }
 
 .s-story {
@@ -122,7 +218,6 @@
   background-image: url("../img/assets/bg-story.png");
   background-position: top center;
   background-repeat: no-repeat;
-  // background-size: cover;
   overflow: hidden;
   .container {
     display: flex;
@@ -149,11 +244,74 @@
           margin-left: 4.6rem;
         }
       }
+    }
+    .right {
+      img {
+        position: relative;
+        left: 40px;
+        top: 11px;
+      }
+    }
+  }
+  @media (max-width: 1200px) {
+    background-image: none;
+    padding: 6rem 0;
+    .container {
+      flex-direction: column-reverse;
+      .left {
+        max-width: 100%;
+        text-align: center;
+        .subtitle {
+          justify-content: center;
+        }
+        h2 {
+          max-width: 75%;
+          margin: 2rem auto;
+        }
+        .corp {
+          justify-content: center;
+        }
+      }
       .right {
-        .katros-atreus {
-          position: relative;
-          top: 9px;
-          left: 40px;
+        img {
+          left: 0;
+          top: 0;
+          margin-bottom: 4rem;
+        }
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    .container {
+      .left {
+        h2 {
+          max-width: 95%;
+        }
+      }
+    }
+  }
+  @media (max-width: 560px) {
+    .container {
+      .left {
+        h2 {
+          font-size: 3rem;
+        }
+        p {
+          font-size: 1.6rem;
+          margin-bottom: 4rem;
+        }
+        .corp {
+          flex-direction: column;
+          p {
+            margin-left: 0;
+            margin-top: 2rem;
+          }
+        }
+      }
+
+      .right {
+        img {
+          margin-bottom: 4rem;
         }
       }
     }
@@ -191,6 +349,50 @@
         max-width: 14.3rem;
         margin-top: 2.2rem;
       }
+    }
+  }
+
+  @media (max-width: 1200px) {
+    padding: 6rem 0;
+  }
+  @media (max-width: 991px) {
+    .container {
+      .description {
+        flex-direction: column;
+        align-items: center;
+        .left {
+          max-width: 100%;
+          text-align: center;
+          margin-top: 4rem;
+        }
+      }
+    }
+  }
+  @media (max-width: 560px) {
+    padding: 4rem 0;
+    .description {
+      .left {
+        h2 {
+          font-size: 3rem;
+        }
+        p {
+          font-size: 1.6rem;
+        }
+      }
+      .right {
+        flex-direction: column;
+        .text {
+          img {
+            margin: 0 auto;
+          }
+          span {
+            max-width: 100%;
+          }
+        }
+      }
+    }
+    .slide-characters {
+      margin-top: 4rem;
     }
   }
 }
