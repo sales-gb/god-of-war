@@ -1,16 +1,16 @@
 # God Of War
 
 
-Welcome to the God of War Ragnarok landing page, an epic game that promises to take action and adventure to a whole new level! I developed this interactive and dynamic interface in partnership with CodeBoost, with the goal of providing an immersive and engaging user experience.
+Essa é a landing page de God of War Ragnarok, um jogo épico que promete levar a ação e a aventura a um novo patamar! Eu desenvolvi esta interface interativa e dinâmica em parceria com a CodeBoost para fornecer uma experiência de usuário envolvente e cativante.
 
-With a modern design and a very beautiful interface, this landing page was created to highlight the main features of the game, such as the immersive narrative, amazing graphics, and challenging gameplay. Additionally, we used SAAS to make the development process even more efficient and productive.
+Com um design moderno e uma interface bonita, esta página inicial foi criada para destacar as principais características do jogo, como a narrativa imersiva, os gráficos incríveis e o gameplay desafiador. Além disso, usamos SAAS para tornar o processo de desenvolvimento ainda mais eficiente e produtivo.
 
-This landing page is the gateway to an exciting adventure that you will never forget. So feel free to explore and discover more about God of War Ragnarok, a game that promises to be one of the great references in terms of action and adventure in gaming.
+Esta página inicial é a porta de entrada para uma aventura emocionante que você nunca esquecerá. Então, sinta-se à vontade para explorar e descobrir mais sobre God of War Ragnarok, um jogo que promete ser uma das grandes referências em termos de ação e aventura em jogos.
 
 
-### Test it out <a href="https://sales-gb.github.io/god-of-war/">here!</a> 😁
+### Teste <a href="https://sales-gb.github.io/god-of-war/">aqui!</a> 😁
 
-## Below are some images of the app!!
+## Segue abaixo algumas imagens da aplicação!!
 
 ### Home
 <img src="https://res.cloudinary.com/dhavjx2gp/image/upload/v1682377882/Home_eykq4c.svg" alt="Home Gow">
